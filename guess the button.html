@@ -4,16 +4,19 @@
     <link rel="stylesheet" href="style.css">
     <div class="container" style="text-align:center">
       <h2>GUESS THE BUTTON</h2>
+      
+      <div class="input-group mb-3">
+        <div class="input-group-prepend">
+          <button class="btn" id="buttonNumber" type="button" onclick="numberButton()">Start Game</button>
+          <button class="refresh-button">Refresh Game</button>
+        </div>
+        <input type="number" placeholder="Enter the number of buttons" id="boxNumber" class="form-control" aria-label="" aria-describedby="basic-addon1">
+      </div>
     </div>
     <br>
-    <div class="button" style="text-align: center;">
-      <button id="button_1" type="button" class="btn-primary" onclick="premium_1()">
-        BUTTON 1</button>
-      <button id="button_2" type="button" class="btn-primary" onclick="premium_2()">
-        BUTTON 2</button>
-      <button id="button_3" type="button" class="btn-primary" onclick="premium_3()">
-        BUTTON 3</button>
-    </div> 
+    <form>
+      <!-- <button type="submit" id="submitbtn">Submit</button> -->
+  </form>
     <br> 
     <h1 id="display" style="text-align:center"></h1>
     <script src="inst.js"></script>     
