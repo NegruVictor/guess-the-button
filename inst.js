@@ -12,7 +12,7 @@ function numberButton() {
   const onClick = function() {
     winningButton = winningButton ? winningButton : Math.floor(Math.random() * number);
     if (winningButton == this.id) {
-      document.getElementById("display").innerHTML ="Congratulations! You've guessed the button!"
+      document.getElementById("display").innerHTML = "Congratulations! You've guessed the button!";
     } else {
       alert("Sorry, wrong button!")
     }
@@ -21,7 +21,6 @@ function numberButton() {
     for (let i = 1; i <= number; ++i) {
       const buton = document.createElement("button")
       document.querySelector('div').appendChild(buton)
-      buton
       buton.id = i;
       buton.innerText = " >> " + i + " << ";
       buton.addEventListener("click", onClick);
