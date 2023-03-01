@@ -10,13 +10,11 @@
   text-shadow: 1px 1px 2px blue, -1px -1px 2px lightblue;
   font-size: x-large;
 }
-
 #display{
   color:blue;
   font-size: 10em;
   font-style: oblique;
 }
-
 .refresh-button{
   background-color: #25d67e;
   border-radius: 8px;
@@ -33,7 +31,7 @@
   list-style: none;
   margin: 0;
   outline: none;
-  padding: 10px 16px;
+  padding: 8px 16px;
   position: relative;
   text-align: center;
   text-decoration: none;
@@ -43,12 +41,10 @@
   -webkit-user-select: none;
   touch-action: manipulation;
 }
-
 .refresh-button:hover,
 .refresh-button:focus {
   background-color: #1a9da1;
 }
-
 .btn{
   background-color: #25d67e;
   border-radius: 8px;
@@ -65,7 +61,7 @@
   list-style: none;
   margin: 0;
   outline: none;
-  padding: 10px 16px;
+  padding: 8px 16px;
   position: relative;
   text-align: center;
   text-decoration: none;
@@ -75,7 +71,6 @@
   -webkit-user-select: none;
   touch-action: manipulation;
 }
-
 .btn:hover,
 .btn:focus {
   background-color: #1a9da1;

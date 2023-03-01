@@ -1,20 +1,23 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link rel="stylesheet" href="style.css">
-    <div class="container" style="text-align:center">
-      <h2>GUESS THE BUTTON</h2>
-      <div class="input-group mb-3">
-        <div class="input-group-prepend">
-          <button class="btn" id="buttonNumber" type="button" onclick="numberButton()">Start Game</button>
-          <button class="refresh-button">Refresh Game</button>
+    <center>
+      <link rel="stylesheet" href="style.css">
+      <div class="container" style="text-align:center">
+        <h2>GUESS THE BUTTON</h2>
+        <div class="input-group mb-3">
+          <div class="input-group-prepend">
+            <button class="btn" id="buttonNumber" type="button" onclick="numberButton()">Start Game</button>
+            <button class="refresh-button">Refresh Game</button>
+          </div>
+          <input type="number" placeholder="Enter the number of buttons" id="boxNumber" class="form-control" aria-describedby="basic-addon1">
         </div>
-        <input type="number" placeholder="Enter the number of buttons" id="boxNumber" class="form-control" aria-label="" aria-describedby="basic-addon1">
       </div>
-    </div>
-    <br>
-    <br> 
-    <h1 id="display" style="text-align:center"></h1>
-    <script src="inst.js"></script>     
+      <br>
+      <br> 
+      <div1 class="buttons" id="buttons" style="text-align:center"></div1>
+      <h1 id="display" style="text-align:center"></h1>
+      <script src="inst.js"></script> 
+    </center>    
   </head>
 </html>
